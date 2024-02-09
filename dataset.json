@@ -1,0 +1,119 @@
+{
+ "intents": [
+{
+"tag": "greeting",
+"patterns": [
+"Hello",
+"Hi",
+"Hey",
+"Good morning",
+"Good afternoon",
+"Good evening"
+],
+"responses": [
+"Hi there, how can I help you today?",
+"Hello! How can I assist you?",
+"Hi! How can I help you today?",
+"Hey there, how can I assist you?",
+"Good [morning/afternoon/evening]! How may I help you?",
+"Hello, how may I assist you today?"
+]
+},
+{
+"tag": "thanks",
+"patterns": [
+"Thank you",
+"Thanks",
+"Thanks a lot",
+"Thank you so much",
+"Appreciate it"
+],
+"responses": [
+"You're welcome!",
+"No problem!",
+"Glad to help!",
+"Anytime!",
+"My pleasure!",
+"Not a problem!",
+"It was my pleasure to assist you!"
+]
+},
+{
+"tag": "goodbye",
+"patterns": [
+"Goodbye",
+"Bye",
+"See you later",
+"Talk to you soon"
+],
+"responses": [
+"Goodbye, have a great day!",
+"Bye, take care!",
+"See you later!",
+"Talk to you soon!",
+"Have a great day!"
+]
+},
+{
+"tag": "order",
+"patterns": [
+"How do I place an order?",
+"What is the process for ordering?",
+"Can you help me with placing an order?",
+"How long does it take to receive an order?",
+"What is the status of my order?",
+"I have a problem with my order"
+],
+"responses": [
+"To place an order, please visit our website and select the items you wish to purchase. The standard delivery time is 3-5 business days. You can check the status of your order by logging into your account on our website. If you have any issues with your order, please contact our customer support team by phone or email.",
+"Certainly, to place an order you can call our toll-free number or visit our website. Delivery usually takes 5-7 business days. If you need to check the status of your order, you can log into your account on our website. If you have any problems with your order, please contact our customer support team by phone or email.",
+"If you need assistance with placing an order, we're happy to help. You can reach out to us through our website's live chat or by phone and we'll guide you through the process. The estimated delivery time for orders is 7-10 business days. If you have any issues with your order, please let us know and we'll do our best to help you out."
+]
+},
+{
+"tag": "payment",
+"patterns": [
+"How can I pay for my order?",
+"What payment methods do you accept?",
+"Is it safe to make a payment on your website?",
+"I have a problem with my payment",
+"When will my payment be processed?"
+],
+"responses": [
+"We accept credit cards, debit cards, PayPal, and Apple Pay. Our payment process is secure and all transactions are encrypted. Your payment will be processed within 24 hours. If you have any problems with your payment, please contact customer support via email or phone.",
+"You can pay for your order using credit cards, debit cards, PayPal, or Apple Pay. Our payment process is secure and your information is encrypted. Your payment will be processed within 24 hours. If you encounter any issues with your payment, please contact customer support via email or phone.",
+"Our payment options include credit cards, debit cards, PayPal, and Apple Pay, all of which are secure and encrypted. We usually process payments within 24 hours. If you have any concerns or issues with your payment, please contact customer support via email or phone, and we'll help you out."
+]
+},
+{
+"tag": "returns",
+"patterns": [
+"What is your return policy?",
+"How do I return an item?",
+"Can I get a refund?",
+"I received a damaged item",
+"I received the wrong item"
+],
+"responses": [
+"Our return policy allows you to return items within 30 days. To initiate a return, please fill out our online return form and follow the instructions provided. If you are eligible for a refund, it will be processed within 5-7 business days. If you received a damaged or incorrect item, please contact our customer support team at [email/phone number] and we'll assist you.",
+"For returns, please initiate the process within 14 days and follow these instructions: pack the item securely in its original packaging, complete the return form provided, and attach the shipping label. Once we receive the item, we'll process your refund within 3-5 business days. If you received a damaged or incorrect item, please contact our customer support team at [email/phone number] for assistance.",
+"If you would like to return an item, please do so within 30 days using our online return form and following the provided instructions. Refunds are usually processed within 7-10 business days. In case you received a damaged or incorrect item, please contact our customer support team at [email/phone number] and we'll take care of it for you."
+]
+},
+{
+"tag": "support",
+"patterns": [
+"How can I contact customer support?",
+"I need help with an issue",
+"I have a question",
+"Can you help me with something?"
+],
+"responses": [
+"Our customer support team is available 24/7 and can be reached by phone, email, or live chat. We're happy to help you with any issues or questions you may have.",
+"If you need assistance, our customer support team is available during business hours (9am-5pm PST). You can reach us by phone or email and we'll do our best to help you.",
+"For any questions or issues, please don't hesitate to contact our customer support team. We're available 24/7 and can be reached by phone, email, or live chat.",
+"If you have any questions or need help with anything, our customer support team is here for you. You can reach us 24/7 by phone, email, or live chat."
+]
+}
+]
+}
